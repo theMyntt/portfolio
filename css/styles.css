@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Circular;
+    src: url("fonts/CircularStd-Book.otf");
+
+}
+
+@font-face {
+    font-family: Circular-Bold;
+    src: url("fonts/CircularStd-Bold.otf");
+}
+
+* {
+    margin: 0;
+    font-family: Circular, "Segoe UI", sans-serif;
+    color: #F7F7F7;
+}
+
+html {
+    background-color: #212529
+}
+
+a, button {
+    cursor: pointer;
+    transition: 0.3s
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Circular-Bold;
+}
+
+header {
+    background-color: #000;
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 1cm;
+}
+
+a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    line-height: 1.5;
+}
+
+main {
+    padding-top: 1cm;
+}
+
+header h1 {
+    margin-left: 1.05cm;
+}
+
+header ul {
+    padding-right: 40px
+}
+
+header ul li {
+    display: inline-flex;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+button {
+    border: 2px #495057 solid;
+    background-color: #343a40;
+    height: 40px;
+    border-radius: 10px;
+    color: #F7F7F7;
+}
+
+#C-Container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5cm;
+}
+
+#main-section {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+#main-name {
+    font-size: 36px;
+}
+
+.card {
+    border: 2px #495057 solid;
+    background-color: #343a40;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.img-lang, .img-lang1, .img-lang2 {
+    padding: 0 10% 0 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 115px;
+    }
+    #C-Container {
+        width: 80%;
+    }
+    .response {
+        display: block;
+    }
+    .btn-response {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .img-lang {
+        width: 15%;
+    }
+    .img-lang1 {
+        width: 13%;
+    }
+    .img-lang2 {
+        width: 11%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        height: 95px;
+    }
+    #C-Container {
+        width: 60%;
+    }
+    .response {
+        display: flex;
+    }
+    .btn-response {
+        width: 55%;
+        margin-right: 15px;
+    }
+    .one {
+        margin-right: 0;
+    }
+    .img-lang {
+        width: 10%;
+    }
+    .img-lang1 {
+        width: 8.9%;
+    }
+    .img-lang2 {
+        width: 7%;
+    }
+}
