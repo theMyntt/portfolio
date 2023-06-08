@@ -96,6 +96,10 @@ button {
     padding: 15px;
 }
 
+.card h2 {
+    margin-bottom: 15px;
+}
+
 .img-lang, .img-lang1, .img-lang2 {
     padding: 0 10% 0 10%;
 }
